@@ -1,0 +1,519 @@
+.App {
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    width: 375px;
+    margin: auto;
+    color: white;
+ }
+ 
+  nav {
+    position: relative;
+     height: 67px;
+     padding: auto
+  }
+ 
+  .navbar-brand {
+     margin-left:24px;
+     color: black;
+  }
+ 
+  .greeting {
+     position: absolute;
+     font-size: 12px;
+     top: 17px;
+     left: 70px;
+     bottom: 17px;
+     margin: 0px 0px 0px 13px;
+  }
+ 
+  .greeting_2 {
+    position: absolute;
+    font-weight: 700;
+    font-size: 16px;
+    top: 31px;
+    left: 70px;
+    margin: 0px 0px 0px 13px;
+ }
+ 
+  .container_1 {
+     background-image: url("background3.png");
+     background-color: #eebece;   
+     height: 667px;
+  }
+ 
+  .title_1 {
+     padding-top: 67px;
+     font-size: 52px;
+     font-weight:900;
+     line-height: 51px;
+  }
+ 
+  .title_2 {
+     font-size: 16px;
+     font-weight: 600;
+     font-style: italic;
+     margin-top: 20px;
+  }
+ 
+  .lego {
+    position: relative;
+    margin-top: 67px;
+  }
+ 
+  .button {
+     position: absolute;
+     left: 72px;
+     bottom: 47px;
+     width: 231px;
+     height: 58px;
+     border-radius: 100px;
+     border-width: 0px;
+     color:black;
+    }
+ 
+  .container_2 {
+     background-color: #eebece;
+     height: 648px;
+     text-align: right;
+  }
+ 
+  .definition {
+     margin: 63px 32px 0px 32px;
+     font-weight: 500;
+     font-size: 16px;
+     letter-spacing: -0.57px;
+     line-height: 24px;
+     color: black;
+  }
+ 
+  b {
+     color: #0b24fb;
+  }
+  
+  .name {
+     margin: 20px 32px 0px 219px;
+     font-size: 16px;
+    }
+    
+ .oval {
+    margin: 38px 229px 0px 57px;
+ } 
+ 
+ .testimonial {
+    margin: -20px 155px 5px 32px;
+ }
+ 
+ .title_3 {
+    font-weight: 900;
+    font-size: 32px;
+ }
+ 
+ .card {
+    width: 247px;
+    height: 140px;
+ }
+ 
+ .carousel {
+    display: flex;
+    justify-content: center;
+    width: 621px;
+    height: 170.5px;
+    margin: 0px 0px 0px 0px;
+    text-align: left;
+    /* background-color: cornflowerblue; */
+    color: black;
+ }
+ 
+ .row {
+    padding: 30px 0px 0px 25px;
+ }
+ 
+ .card-text {
+    font-size: 12px;
+    letter-spacing: -0.43px;
+ }
+ 
+ .carousel_control_next {
+    display: none;
+    position: absolute;
+    left: 671px; 
+    top: 81px;
+ }
+ 
+ .carousel_control_prev {
+     display: none;
+    position: absolute;
+    width: 100px;
+    right: 671px;
+    top: 81px;
+ }
+ 
+ 
+  /* PART 3 */
+  .container_3 {
+    text-align: left;
+     background-color: black;
+     height: 2038px;
+  }
+ 
+  .box_1 {
+    position: relative;
+    padding-top: 162px;
+    margin-bottom: 30px;
+  }
+ 
+  .box_2 {
+    margin-top: 67px;
+  }
+ 
+  .box_3 {
+    position: relative;
+    margin-top: 67px;
+  }
+ 
+  .box_4 {
+     margin-top: 67px;
+  }
+ 
+  .box_5 {
+     position: relative;
+     height: 460px;
+     top: 122.5px;
+     bottom: 0px;
+  }
+  
+  .title_4 {
+    font-weight: 900;
+    font-size: 32px;
+    margin: 0px 0px 30px 32px;
+ }
+ 
+  .content {
+     margin: 0px 32px 0px 32px;
+     font-size: 16px;
+     line-height: 24px;
+     letter-spacing: -0.57px;
+    }
+ 
+.peanut {
+    display: none;
+}
+
+ .helpTips {
+    position: relative;
+    display: inline-flex;
+    width: 311px;
+    height: 176px;
+    margin: 0px 32px 10px 32px;
+ }
+ 
+ .card-img-overlay {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 104px ;
+    background-color: black;
+    opacity: 50%;
+    text-align: left;
+ }
+ 
+ .caption {
+    width: 218px;
+    height: 38px;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.57px;
+ }
+ 
+ 
+ .lego_left {
+    position: absolute;
+    width: 253px;
+    height: 337px;
+ }
+ 
+ /* FOOTER */
+ .container_4 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0b24fb;
+    height: 67px;
+    font-size: 16px;
+    padding: 24px 24px;
+ }
+ 
+ .wknd {
+    font-weight: 700;
+    font-size: 12px;
+ }
+ 
+ .numb {
+    display: inline-flex;
+    font-weight: 400;
+ }
+ 
+ .version {
+    font-size: 10px;
+    font-weight: 300;
+    border: solid 1px ;
+    border-color: white;
+    border-radius: 9px;
+    height: 18px;
+    width: 94px;
+ }
+
+
+ /* desktop */
+ @media (min-width: 992px) { 
+    .App {
+        font-family: 'Work Sans', sans-serif;
+        text-align: center;
+        width: 1366px;
+        margin: auto;
+        color: white;
+     }
+     
+      nav {
+        position: relative;
+         height: 67px;
+         padding: auto
+      }
+     
+      .navbar-brand {
+         margin-left:213px;
+         color: black;
+      }
+     
+      .greeting {
+         position: absolute;
+         font-size: 12px;
+         top: 17px;
+         left: 259px;
+         bottom: 17px;
+         margin: 0px 0px 0px 13px;
+      }
+     
+      .greeting_2 {
+        position: absolute;
+        font-weight: 700;
+        font-size: 16px;
+        top: 31px;
+        left: 259px;
+        margin: 0px 0px 0px 13px;
+     }
+     
+      .container_1 {
+         background-image: url("background3.png");
+         background-color: #eebece;   
+         height: 732px;
+      }
+     
+      .title_1 {
+         padding-top: 84px;
+         font-size: 62px;
+         font-weight:900;
+         line-height: 51px;
+      }
+     
+      .title_2 {
+         font-size: 21px;
+         font-weight: 600;
+         font-style: italic;
+         margin-top: 20px;
+         font-size: 21px;
+      }
+     
+      .lego {
+        position: relative;
+        margin-top: 40px;
+      }
+     
+      .button {
+         position: absolute;
+         left: 568px;
+         bottom: 47px;
+         width: 231px;
+         height: 58px;
+         border-radius: 100px;
+         border-width: 0px;
+         color:black;
+        }
+     
+      .container_2 {
+         background-color: #eebece;
+         height: 591px;
+         text-align: right;
+      }
+     
+      .definition {
+         margin: 0px 373px 0px 374px;
+         font-weight: 500;
+         font-size: 21px;
+         letter-spacing: -0.75px;
+         line-height: 32px;
+         color: black;
+      }
+     
+      b {
+         color: #0b24fb;
+      }
+      
+      .name {
+         margin: 30px 373px 0px 830px;
+         font-size: 21px;
+        }
+        
+     .oval {
+        margin: 38px 994px 0px 283px;
+     } 
+     
+     .testimonial {
+        margin: -38px 589px 5px 589px;
+     }
+     
+     .title_3 {
+        font-weight: 900;
+        font-size: 32px;
+     }
+     
+     .card {
+        width: 247px;
+        height: 140px;
+     }
+     
+     .carousel {
+        display: flex;
+        justify-content: center;
+        width: 621px;
+        height: 194px;
+        margin: 0px 372px 0px 372px;
+        text-align: left;
+        color: black;
+     }
+     
+     .row {
+        padding: 25px 10px 29px 25px;
+     }
+     
+     .card-text {
+        font-size: 12px;
+        letter-spacing: -0.43px;
+     }
+       
+      /* PART 3 */
+      .container_3 {
+        text-align: center;
+         background-color: black;
+         height: 1473px;
+      }
+     
+      .box_1 {
+        position: relative;
+        padding-top: 191px;
+        margin-bottom: 30px;
+      }
+     
+      .box_2 {
+        margin-top: 67px;
+      }
+     
+      .box_3 {
+        position: relative;
+        margin-top: 100px;
+      }
+     
+      .box_4 {
+         margin-top: 127px;
+      }
+     
+      .box_5 {
+         position: relative;
+         height: 330px;
+         bottom: 72px;
+      }
+      
+      .title_4 {
+        font-weight: 900;
+        font-size: 32px;
+        margin-bottom: 30px;
+     }
+     
+      .content {
+         margin: 0px 373px 0px 374px;
+         font-size: 18px;
+         line-height: 27px;
+         letter-spacing: -0.64px;
+        }
+     
+     .helpTips {
+        position: relative;
+        display: inline-flex;
+        width: 311px;
+        height: 176px;
+        margin-right: 10px;
+     }
+     
+     .card-img-overlay {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 104px ;
+        background-color: black;
+        opacity: 50%;
+        text-align: left;
+     }
+     
+     .caption {
+        width: 218px;
+        height: 38px;
+        font-weight: 700;
+        font-size: 16px;
+     }
+     
+     .peanut {
+        position: absolute;
+        right: 127px;
+     }
+     
+     
+     .lego_left {
+        position: absolute;
+        left: 0px;
+        bottom: 194px;
+     }
+     
+     /* FOOTER */
+     .container_4 {
+        display: flex;
+        justify-content: space-between;
+        background-color: #0b24fb;
+        height: 67px;
+        font-size: 16px;
+        padding: 24px 213px;
+     }
+     
+     .wknd {
+        font-weight: 700;
+        font-size: 16px;
+     }
+     
+     .numb {
+        display: inline-flex;
+        font-weight: 400;
+     }
+     
+     .version {
+        font-size: 14px;
+        font-weight: 300;
+        border: solid 1px ;
+        border-color: white;
+        border-radius: 12px;
+        height: 24px;
+        width: 126px;
+        padding-bottom: 21px;
+     }
+     
+     
+ }
+ 
+ 
