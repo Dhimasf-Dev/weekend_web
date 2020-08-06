@@ -18,7 +18,7 @@ export default function Testimonial() {
                     <div class="container">
                         <h1 class="display-4">{x.testimony}</h1>
                         <p class="lead">{x.by}</p>
-                        <Link to={"/home"}>
+                        <Link to={"/"}>
                             <button class="btn btn-outline-primary">Back</button>
                         </Link>
                     </div>

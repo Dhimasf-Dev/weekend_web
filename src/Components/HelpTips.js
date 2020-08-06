@@ -19,7 +19,7 @@ export default function HelpTips() {
                         <img src={x.image} alt="img" />
                         <h1 class="display-4">{x.title}</h1>
                         <p class="lead">{x.slug}</p>
-                        <Link to={"/home"}>
+                        <Link to={"/"}>
                             <button class="btn btn-outline-danger">Back</button>
                         </Link>
                     </div>

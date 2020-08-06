@@ -13,7 +13,7 @@ export default function App() {
         <div class="App">
           <Header />
           <Switch>
-              <Route path="/home" exact component={HomeMobile} />
+              <Route path="/" exact component={HomeMobile} />
               <Route path="/helpTips" exact component={helpTips} />
               <Route path="/testimonial" exact component={Testimonial} />
           </Switch>
