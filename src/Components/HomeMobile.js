@@ -46,7 +46,7 @@ export default function Home() {
             <div class="container_2">
                 <img src="lego_right.png" alt="lego_right" />
                 <h5 class="definition"><b>Deffinition;</b> a practice or exercise to test or improve one's fitness for athletic competition, ability, or performance to exhaust (something, such as a mine) by working to devise, arrange, or achieve by resolving difficulties. Merriam-Webster.com Dictionary.</h5>
-                <h4 class="name">-weekend team</h4>
+                <h4 class="name">-team</h4>
                 <img class="oval" src="oval.png" alt="oval" />
                 <div class="testimonial">
                     <h1 class="title_3">Testimonial</h1>
@@ -109,13 +109,6 @@ export default function Home() {
                                         </div>
                                     </div>
                             </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                            <img src="prev.png" alt="prev" />
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                            <img src="next.png" alt="next" />
-                            <span class="sr-only">Next</span>
-                        </a>
                         </div>
                     </div>
             </div>
@@ -138,9 +131,6 @@ export default function Home() {
                 <div class="box_4">
                     <h1 class="title_4">You’re all set.</h1>
                     <p class="content">The wise man therefore always holds in these matters to this principle of selection.</p>
-                </div>
-                <div class="box_5">
-                    <img class="lego_left" src="lego_left.png" alt="path-3" />
                 </div>
             </div>
 
